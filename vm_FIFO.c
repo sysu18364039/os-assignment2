@@ -178,7 +178,7 @@ int main(void) {
     int len;
     int addresses[15000];//开一个足bai够大的数组。
     int i = 0;
-    char address_txt[100] = "addresses_my.txt";
+    char address_txt[100] = "addresses_locality.txt";
     if((fp = fopen(address_txt,"r"))== NULL){
         return 0;
     }
